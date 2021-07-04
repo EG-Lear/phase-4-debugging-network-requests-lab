@@ -62,12 +62,12 @@ developing your own process.
 
 - Add a new toy when the toy form is submitted
 
-  - How I debugged:
+  - How I debugged: Said toys doesn't exist in controller in when it tried to run the post in my cli that started rails went to toy controller looked at create found typo
 
 - Update the number of likes for a toy
 
-  - How I debugged:
+  - How I debugged: browser said it wasn't getting a json response refreshed page to see that it was updating server so I went to controller to see it wasn't returning a render
 
 - Donate a toy to Goodwill (and delete it from our database)
 
-  - How I debugged:
+  - How I debugged: I saw that there was no destroy when browsing files earlier
